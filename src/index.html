@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>Leaderboard</h1>
+  <section class="leaderboard flex">
+    <div class="score">
+      <div class="scorediv">
+        <div class="recent flex">
+          <span>Recent Scores</span>
+          <button class="refresh">Refresh</button>
+        </div>
+        <ul class="scores">
+          <li>name: 35</li>
+          <li>name: 35</li>
+          <li>name: 35</li>
+          <li>name: 35</li>
+          <li>name: 35</li>
+        </ul>
+      </div>
+    </div>
+    <form class="form flex" >
+      <span>Add Your Score</span>
+      <label for="Name">
+        <input class="leader name" name="Name" type="text" placeholder="your name" maxlength="30" required>
+      </label>
+      <label for="Score">
+        <input class="leader score" name="score" type="text" placeholder="your score" maxlength="30" required>
+      </label>
+      <button class="submit" type="button">submit</button>
+    </form>
+  </section>
+  <footer class="footer flex">
+    <p class="foot">&copy Grey Is Silver</p>
+  </footer>
+</body>
+</html>
