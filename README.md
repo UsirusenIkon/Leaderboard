@@ -17,6 +17,7 @@
 ## Built With
    - HTML, CSS (Flex Box & Grid)
    - JAVASCRIPT ES6
+   - webpack
    - VS code
    - Git and Github
 

@@ -26,6 +26,7 @@ h1 {
   flex-wrap: wrap-reverse;
   justify-content: center;
   gap: 2rem;
+  padding: 1rem;
 }
 
 /* score */
