@@ -22,5 +22,5 @@ refreshBtn.addEventListener('click', () => {
   scores.innerHTML = '';
   getData()
     .then((response) => response.json())
-    .then((data) => {renderData(data.result)});
+    .then((data) => { renderData(data.result); });
 });
