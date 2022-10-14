@@ -19,6 +19,7 @@ form.addEventListener('submit', (e) => {
 const refreshBtn = document.querySelector('.refresh');
 refreshBtn.addEventListener('click', () => {
   const scores = document.querySelector('.scores');
+  scores.firstElementChild.remove();
   scores.innerHTML = '';
   getData()
     .then((response) => response.json())
