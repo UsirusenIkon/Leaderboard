@@ -5,7 +5,14 @@
 ## Description 
    - In this activity we  set up a JavaScript project for the Leaderboard list app, using webpack and ES6 features, notably modules.
 
-## <a href="#">Live Demo</a>
+   - This is the page view:
+   
+> |     | Mobile version                             | Desktop version                            |     |
+> | --- | ------------------------------------------ | -------------------------------------------| --- |
+> |     | ![screenshot](asset/phone.png)             | ![screenshot](asset/desktop.png)           |     |
+
+
+## <a href="https://usirusenikon.github.io/Leaderboard/dist/">Live Demo</a>
 
    - The objectives of this project is to:
    - Use callbacks and promises.
