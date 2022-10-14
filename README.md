@@ -47,6 +47,11 @@
 
          npx stylelint "*/.{css,scss}"
 
+   - To view the page :
+
+         npm start or open on live server and go to the dist folder.
+
+
 ## Deployment
    - I used GitHub Pages to deploy my website
    - For more information about publishing sources, see About [github page](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#publishing-sources-for-github-pages-sites)
