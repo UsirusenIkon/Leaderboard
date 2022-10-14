@@ -5,7 +5,14 @@
 ## Description 
    - In this activity we  set up a JavaScript project for the Leaderboard list app, using webpack and ES6 features, notably modules.
 
-## <a href="#">Live Demo</a>
+   - This is the page view:
+   
+> |     | Mobile version                             | Desktop version                            |     |
+> | --- | ------------------------------------------ | -------------------------------------------| --- |
+> |     | ![screenshot](asset/phone.png)             | ![screenshot](asset/desktop.png)           |     |
+
+
+## <a href="https://usirusenikon.github.io/Leaderboard/dist/">Live Demo</a>
 
    - The objectives of this project is to:
    - Use callbacks and promises.
@@ -46,6 +53,11 @@
    - For tracking the linter errors in CSS file run:
 
          npx stylelint "*/.{css,scss}"
+
+   - To view the page :
+
+         npm start or open on live server and go to the dist folder.
+
 
 ## Deployment
    - I used GitHub Pages to deploy my website
